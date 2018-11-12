@@ -1,0 +1,20 @@
+.index-page-main {
+  width: 320px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .index-page-main {
+    width: 764px;
+    padding: 0 62px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .index-page-main {
+    width: 1440px;
+    padding: 0 166px;
+  }
+}

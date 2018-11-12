@@ -1,0 +1,45 @@
+.page-header {
+  width: 320px;
+  margin: 0 auto;
+  padding-bottom: 136px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.page-header__logo-image {
+  width: 112px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    width: 764px;
+    height: 823px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    background-image: url("../img/header-tablet@1x.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .page-header__logo-image {
+    width: 201px;
+    height: 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    width: 1440px;
+    height: 780px;
+    background-image: url("../img/header-desktop@1x.jpg");
+  }
+
+  .page-header__logo-image {
+    width: 254px;
+    height: 76px;
+  }
+}

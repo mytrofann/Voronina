@@ -1,0 +1,135 @@
+.price-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.price-list__item {
+  padding-bottom: 71px;
+}
+
+.price-list__item-image {
+  display: block;
+  background-color: #ffffff;
+}
+
+.price-list__title {
+  margin: 0;
+  padding: 10px 35px;
+  padding-top: 15px;
+  font-size: 18px;
+  color: #8eb574;
+}
+
+.price-list__title-name {
+  padding-right: 70px;
+  font-weight: 700;
+}
+
+.price-list__title-price {
+  padding-left: 80px;
+  font-weight: 600;
+}
+
+.price-list__description {
+  margin: 0;
+  padding: 0;
+  line-height: 1.25;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .price-list {
+    padding-bottom: 100px;
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .price-list__item {
+    z-index: 1;
+  }
+
+  .price-list__item:nth-child(1) {
+    width: 239px;
+    margin-top: 101px;
+    padding-bottom: 71px;
+  }
+
+  .price-list__item:nth-child(n+2):nth-child(-n+3) {
+    width: 186px;
+    padding-bottom: 71px;
+  }
+
+  .price-list__item:nth-child(3) {
+    margin-top: 117px;
+  }
+
+  .price-list__title {
+    margin: 0;
+    padding: 10px 10px;
+    padding-top: 15px;
+    font-size: 16px;
+    color: #8eb574;
+  }
+
+  .price-list__title-name {
+    padding-right: 50px;
+  }
+
+  .price-list__title-price {
+    padding-left: 40px;
+  }
+
+  .price-list__description {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .price-list {
+    width: 1106px;
+  }
+
+  .price-list__item:nth-child(1) {
+    width: 415px;
+    margin-top: 170px;
+    padding-bottom: 71px;
+  }
+
+  .price-list__item:nth-child(n+2):nth-child(-n+3) {
+    width: 317px;
+    padding-bottom: 71px;
+  }
+
+  .price-list__item:nth-child(3) {
+    margin-top: 200px;
+  }
+
+  .price-list__title {
+    margin: 0;
+    padding: 10px 50px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  .price-list__title-name {
+    padding-right: 50px;
+  }
+
+  .price-list__title-price {
+    padding-left: 80px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .price-list__description {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}

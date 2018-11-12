@@ -1,0 +1,404 @@
+.about {
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+  position: relative;
+
+  &::before {
+    content: "";
+    top: -56px;
+    left: 159px;
+    width: 2px;
+    height: 30px;
+    position: absolute;
+    background-color: #cb98a8;
+  }
+}
+
+.about__block {
+  display: none;
+}
+
+.about__title {
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 44px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about__image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about__image {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+.about__image-one {
+  width: 165px;
+  height: 307px;
+}
+
+.about__image-two {
+  margin-top: 35px;
+  width: 145px;
+  height: 307px;
+}
+
+.about__description {
+  margin: 0;
+  padding: 0 20px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.about__cooperation {
+  display: none;
+}
+
+.about__phone {
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.about__email {
+  margin: 0;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.about__email-one {
+  font-weight: 400;
+}
+
+.about__button {
+  margin: 0 70px;
+
+  &:hover {
+    color: #8eb574;
+  }
+}
+
+.about__social {
+  display: none;
+}
+
+
+@media (min-width: $tablet-width) {
+  .about {
+    width: 640px;
+    margin: 0;
+    padding-bottom: 238px;
+    border-left: 2px solid #f8f8f8;
+    border-right: 2px solid #f8f8f8;
+    box-sizing: border-box;
+
+    &::before {
+      content: "";
+      top: -98px;
+      left: 317px;
+      height: 38px;
+    }
+  }
+
+  .about__title {
+    padding-top: 8px;
+    padding-bottom: 54px;
+    font-size: 25px;
+    position: relative;
+
+    &::before {
+      content: "";
+      top: -63px;
+      left: -22px;
+      width: 48px;
+      height: 30px;
+      position: absolute;
+      background: url("../img/leaf-5.png");
+      background-size: 48px 30px;
+      background-position: no-repeat;
+    }
+
+    &::after {
+      content: "";
+      top: -219px;
+      left: 624px;
+      width: 40px;
+      height: 35px;
+      position: absolute;
+      background: url("../img/leaf-4.png");
+      background-size: 40px 35px;
+      background-position: no-repeat;
+    }
+  }
+
+  .about__block {
+    display: block;
+    top: 212px;
+    left: -64px;
+    width: 764px;
+    padding-bottom: 203px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #f8f8f8;
+  }
+
+  .about__block-step-three {
+    display: none;
+  }
+
+  .about__image-one {
+    width: 306px;
+    height: 417px;
+    position: relative;
+  }
+
+  .about__image-two {
+    margin-top: 48px;
+    width: 306px;
+    height: 417px;
+    position: relative;
+  }
+
+  .about__text-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about__description-wrapper {
+    width: 320px;
+  }
+
+  .about__contacts-wrapper {
+    width: 320px;
+  }
+
+  .about__description {
+    margin-top: -48px;
+    padding: 0 14px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .about__cooperation {
+    display: none;
+  }
+
+  .about__phone {
+    margin: 0;
+    padding: 0 13px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .about__email {
+    margin: 0;
+    padding: 0 13px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .about__email-one {
+    font-size: 15px;
+  }
+
+  .about__button {
+    margin: 0 13px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .about {
+    width: 1106px;
+    margin-bottom: 0;
+    padding: 0;
+    padding-bottom: 227px;
+    position: relative;
+
+    &::before {
+      top: -130px;
+      left: 559px;
+    }
+  }
+
+  .about__title {
+    padding-top: 8px;
+    padding-bottom: 42px;
+    font-size: 37px;
+
+    &::before {
+      content: "";
+      top: -111px;
+      left: -22px;
+      width: 55px;
+      height: 35px;
+      background-size: 55px 35px;
+    }
+
+    &::after {
+      top: -643px;
+      left: 1063px;
+      width: 55px;
+      height: 50px;
+      background-size: 55px 50px;
+    }
+  }
+
+  .about__block {
+    top: 91px;
+    left: -168px;
+    width: 378px;
+    padding-bottom: 337px;
+  }
+
+  .about__block-step-three {
+    margin: 0;
+    padding: 0;
+    padding-top: 225px;
+    padding-left: 75px;
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+
+    &::before {
+      content: "";
+      top: 173px;
+      left: 88px;
+      width: 11px;
+      height: 1px;
+      position: absolute;
+      background-color: #bcbcbc;
+      box-shadow: 0 40px 0 0 #bcbcbc, 0 80px 0 0 #bcbcbc, 0 120px 0 0 #bcbcbc, 0 160px 0 0 #bcbcbc, 0 200px 0 0 #bcbcbc;
+    }
+
+    &::after {
+      content: "";
+      top: 252px;
+      left: 62px;
+      width: 37px;
+      height: 2px;
+      position: absolute;
+      background-color: #3b3b3b;
+    }
+  }
+
+  .about__image-wrapper {
+    top: 142px;
+    left: -3px;
+    width: 662px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .about__image-one {
+    width: 316px;
+    height: 431px;
+  }
+
+  .about__image-two {
+    margin-top: 50px;
+    width: 316px;
+    height: 431px;
+  }
+
+  .about__text-wrapper {
+    width: 645px;
+    margin-left: 458px;
+    margin-top: 127px;
+    padding-top: 6px;
+    padding-left: 250px;
+    padding-bottom: 82px;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+  }
+
+  .about__description-wrapper {
+    width: 392px;
+    box-sizing: border-box;
+  }
+
+  .about__contacts-wrapper {
+    width: 392px;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+
+  .about__description {
+    margin-top: 50px;
+    padding: 0;
+    padding-right: 50px;
+    font-size: 18px;
+  }
+
+  .about__cooperation {
+    padding-top: 10px;
+    padding-right: 100px;
+    display: block;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .about__phone {
+    padding: 0;
+    padding-bottom: 3px;
+    font-size: 18px;
+  }
+
+  .about__email {
+    padding: 0;
+    padding-bottom: 32px;
+    font-size: 16px;
+  }
+
+  .about__email-one {
+    font-size: 18px;
+  }
+
+  .about__button {
+    margin: 0;
+    font-size: 18px;
+
+    &:hover {
+      color: #8eb574;
+    }
+  }
+
+  .about__social {
+    top: 413px;
+    right: -194px;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+  }
+
+  .about__social-link {
+    color: #cb98a8;
+
+    &:hover {
+      color: #8eb574;
+    }
+  }
+
+  .about__social-separator {
+    color: #cb98a8;
+  }
+}
